@@ -7,7 +7,7 @@ function Footer() {
             <Container>
                 <div className="footer-bg">
                     <div className="copyright">
-                        <p>&copy; by Andrii Hrytsai</p>
+                        <p>&copy; by koljuchka93</p>
                     </div>
                 </div>
             </Container>
