@@ -1,0 +1,72 @@
+.wrapperCardInfo {
+  min-height: 70vh;
+}
+
+.imgCard {
+  height: 400px;
+  float: left;
+  margin-right: 20px;
+}
+
+.overview {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.loader {
+  margin-left: 45%;
+  margin-top: 10%;
+}
+.genresDiv {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.genresList {
+  list-style: none;
+  display: flex;
+  margin-left: -30px;
+}
+.genresListItem + .genresListItem {
+  margin-left: 10px;
+}
+.addInformDiv {
+  margin-left: 80px;
+}
+.castReviewList {
+  margin-left: 250px;
+  list-style: none;
+}
+.castReviewListItem {
+  text-decoration: none;
+  color: #131314;
+  border-bottom: 1px solid;
+  border-bottom-color: rgba(15, 122, 252, 0.2);
+}
+.castReviewListItem:hover {
+  text-decoration: none;
+  color: #7200cf;
+  border-bottom-color: rgba(208, 64, 0, 0.2);
+}
+.linkBack {
+  width: 100px;
+  height: 35px;
+  display: block;
+  border: none;
+  background: #e1e6e9;
+  color: #111111;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 5px;
+  padding-left: 20px;
+
+  overflow: hidden;
+  font-size: 18px;
+  border-radius: 5px;
+  position: relative;
+  box-sizing: border-box;
+  transition: all 500ms ease;
+}
+
+.linkBack:hover {
+  background: brown;
+}
